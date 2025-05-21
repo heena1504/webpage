@@ -1,5 +1,5 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background: #f9f5f0;
   margin: 0;
 }
@@ -16,7 +16,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 1.8rem;
- align-items: center;
+  align-items: center;
 }
 
 nav a {
@@ -58,7 +58,7 @@ nav a:hover {
   padding: 30px;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .login-container input {
@@ -75,4 +75,16 @@ nav a:hover {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  header,
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
 }
