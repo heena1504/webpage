@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Menu - Bean Bliss</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bean Bliss Coffee</h1>
+      <nav>
+        <a href="intro.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h2>Our Coffee Menu</h2>
+      <ul class="menu-list">
+        <li>Espresso - ₹100</li>
+        <li>Vanilla Latte - ₹150</li>
+        <li>Caramel Macchiato - ₹170</li>
+        <li>Mocha Frappe - ₹180</li>
+        <li>Hazelnut Cold Brew - ₹130</li>
+      </ul>
+
+      <section>
+        <h2>Add Your Favorite Coffee</h2>
+        <form id="coffeeForm">
+          <input
+            type="text"
+            id="coffeeName"
+            placeholder="Coffee Name"
+            required
+          />
+          <input type="url" id="coffeeImage" placeholder="Image URL" required />
+          <button type="submit">Add Coffee</button>
+        </form>
+
+        <div id="gallery" class="gallery"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
